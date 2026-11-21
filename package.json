@@ -1,0 +1,16 @@
+{
+  "name": "nova-decision-engine",
+  "version": "1.0.0",
+  "description": "Customer Engagement Decision Engine: should we contact this customer now, on which channel, and why?",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node src/cli.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
